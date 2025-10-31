@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cake_smashed.ogg-f08e21b31665ec01aa0e4007aca816cc.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/sfx/cake_smashed.ogg"
+dest_files=[ "res://.import/cake_smashed.ogg-f08e21b31665ec01aa0e4007aca816cc.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

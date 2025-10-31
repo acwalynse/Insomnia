@@ -1,0 +1,9 @@
+# Main rules
+.*
+
+# Exceptions
+!.gitignore
+!.editorconfig
+
+# Export files
+export/

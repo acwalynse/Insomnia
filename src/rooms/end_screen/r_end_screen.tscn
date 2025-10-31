@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/sprites/cutscenes/end/end_screen.png" type="Texture" id=1]
+[ext_resource path="res://src/rooms/end_screen/r_end_screen_font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://src/rooms/end_screen/r_end_screen.gd" type="Script" id=3]
+
+[node name="REndScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Label" type="Label" parent="."]
+margin_left = 32.0
+margin_top = 52.0
+margin_right = 288.0
+margin_bottom = 128.0
+custom_fonts/font = ExtResource( 2 )
+text = "END OF ALPHA"
+align = 1
+valign = 1

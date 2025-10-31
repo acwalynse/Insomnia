@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=2]
+
+[ext_resource path="res://assets/sprites/cutscenes/inbed/inbed_face_scared_1.png" type="Texture" id=1]
+[ext_resource path="res://assets/sprites/cutscenes/inbed/inbed_face_interested_0.png" type="Texture" id=2]
+[ext_resource path="res://assets/sprites/cutscenes/inbed/inbed_face_scared_0.png" type="Texture" id=3]
+[ext_resource path="res://assets/sprites/cutscenes/inbed/inbed_face_interested_1.png" type="Texture" id=4]
+[ext_resource path="res://assets/sprites/cutscenes/inbed/inbed_face_default_0.png" type="Texture" id=5]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 4 ) ],
+"loop": false,
+"name": "interested",
+"speed": 2.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 1 ) ],
+"loop": false,
+"name": "scared",
+"speed": 10.0
+} ]
